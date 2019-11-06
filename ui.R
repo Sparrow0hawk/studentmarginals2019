@@ -104,7 +104,7 @@ ui <- fluidPage(
       tags$br(),
       tags$p(id = "help1", "Made by Alex Coleman ~ Found an error?",tags$a(id = "help1",href="mailto:alexcoleman@hunsletandriversidelabour.org.uk", "Email Me.")),
       tags$p(id = "help1", "If the page becomes unresponsive try refreshing your browser."),
-      tags$p(id = "help1", "This page was made using Shiny.")
+      tags$p(id = "help1", "This page was made using Shiny.", tags$a(id = 'help1', href='https://github.com/Sparrow0hawk/studentmarginals2019', 'Code on GitHub'))
 
     )
   )
